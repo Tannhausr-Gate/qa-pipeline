@@ -5,8 +5,8 @@ phases:
     runtime-versions:
       python: 3.12
     commands:
-      - echo "Installing dependencies"
-      - pip install -r requirements.txt
+      - echo "Installing dependencies from pyproject.toml"
+      - pip install .
 
   build:
     commands:

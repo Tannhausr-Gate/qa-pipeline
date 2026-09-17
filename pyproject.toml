@@ -1,0 +1,13 @@
+[project]
+name = "qa-demo-app"
+version = "0.1.0"
+description = "Minimal demo app for CI/CD pipeline comparison"
+requires-python = ">=3.12"
+dependencies = [
+    "Flask==3.1.0",
+    "gunicorn==23.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
